@@ -164,10 +164,10 @@ python inference_onnx.py
 
 # 💾 Model Footprint
 
-| Artifact    | Size   |
-| ----------- | ------ |
-| Keras Model | ~XX MB |
-| ONNX Model  | ~XX MB |
+| Artifact    | Size      |
+| ----------- | ----------|
+| Keras Model | 26.437 MB |
+| ONNX Model  | 9.251  MB |
 
 Optimized for edge compute limits.
 
