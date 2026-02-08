@@ -63,7 +63,7 @@ Defect Class Prediction
 
 # 🗂 Defect Classes
 
-```
+
 # 🧬 Defect Class Descriptions
 
 The model classifies wafer and die inspection images into the following defect categories commonly observed in semiconductor manufacturing:
