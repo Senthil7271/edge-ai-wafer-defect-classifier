@@ -261,8 +261,8 @@ edge-ai-wafer-defect-classifier/
 │
 ├── Test_Results/
 │   ├── Confusion_Matrix.jpeg
-│   ├── Test_Dataset_Results.jpeg
-│   └── test_predictions.csv
+│   ├── Onnx_Test_Dataset_Results.jpeg
+│   └── onnx_test_predictions.csv
 ```
 
 ---
