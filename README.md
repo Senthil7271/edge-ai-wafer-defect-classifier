@@ -204,7 +204,7 @@ Acts as a catch-all class for uncommon or mixed anomalies.
 Confusion matrix generated on the held-out test set:
 
 ```
-results/confusion_matrix.png
+Confusion_matrix.png
 ```
 
 Highlights:
