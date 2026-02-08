@@ -64,16 +64,100 @@ Defect Class Prediction
 # 🗂 Defect Classes
 
 ```
-Bridge
-Clean
-Cracks
-LER
-Stain
-cmp
-open
-other
-particle contamination
-via
+# 🧬 Defect Class Descriptions
+
+The model classifies wafer and die inspection images into the following defect categories commonly observed in semiconductor manufacturing:
+
+---
+
+### 🔗 Bridge
+
+Unintended conductive connection between adjacent metal lines or features.
+This can create electrical shorts and lead to functional failure.
+
+**Typical cause:** Lithography or metal patterning errors.
+
+---
+
+### 🧼 Clean
+
+No visible defect present.
+Represents nominal, defect-free inspection regions used as baseline class.
+
+---
+
+### 🧩 Cracks
+
+Physical fractures in material layers or structures.
+May propagate and cause device reliability failures.
+
+**Typical cause:** Mechanical stress or thermal cycling.
+
+---
+
+### 📏 LER (Line Edge Roughness)
+
+Irregular or rough feature edges instead of smooth boundaries.
+Impacts device dimensions and electrical behavior.
+
+**Typical cause:** Lithography and etch variability.
+
+---
+
+### 💧 Stain
+
+Localized discoloration or residue patches on wafer surface.
+
+**Typical cause:** Chemical residue, rinse issues, or contamination.
+
+---
+
+### ⚙️ CMP (Chemical Mechanical Planarization defect)
+
+Surface non-uniformity or residue after CMP polishing step.
+
+**Typical cause:** Slurry residue, over-polish, or pad issues.
+
+---
+
+### 🔓 Open
+
+Broken or disconnected conductive path.
+
+Results in electrical open circuits.
+
+**Typical cause:** Etch break, missing metal, or via failure.
+
+---
+
+### ❓ Other
+
+Defects that do not fall into predefined categories but show abnormal patterns.
+
+Used as catch-all anomaly class.
+
+---
+
+### 🧪 Particle Contamination
+
+Foreign particles or debris present on wafer surface.
+
+Can block patterns or cause downstream process defects.
+
+**Typical cause:** Environmental or handling contamination.
+
+---
+
+### 🕳 Via Defect
+
+Issues in via holes connecting metal layers, including voids or misalignment.
+
+Can lead to opens or high resistance connections.
+
+**Typical cause:** Via etch or fill process variation.
+
+---
+
 ```
 
 ---
