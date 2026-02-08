@@ -1,4 +1,4 @@
-# 🔬🧠 Edge-AI Wafer Defect Classification — MobileNetV2 (Grayscale)
+# 🔬🧠 Edge-AI Wafer Defect Classification — MobileNetV2 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Framework](https://img.shields.io/badge/Framework-TensorFlow-orange)
