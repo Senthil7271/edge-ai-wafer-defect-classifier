@@ -1,0 +1,108 @@
+file,true,pred,confidence
+Bridge/bridge_100.png,Bridge,Bridge,0.9996647834777832
+Bridge/bridge_26.png,Bridge,Bridge,0.9999972581863403
+Bridge/bridge_37.png,Bridge,Bridge,0.9999716281890869
+Bridge/bridge_7.png,Bridge,Bridge,0.9999547004699707
+Bridge/bridge_88.png,Bridge,Bridge,0.9999804496765137
+Bridge/bridge_89.png,Bridge,Bridge,0.9999784231185913
+Bridge/bridge_96.png,Bridge,Bridge,0.9998188614845276
+Bridge/bridge_97.png,Bridge,Bridge,0.9999960660934448
+Bridge/bridge_98.png,Bridge,Bridge,0.999672532081604
+Bridge/bridge_99.png,Bridge,Bridge,0.9996161460876465
+Clean/clean_1.png,Clean,Clean,0.9976869821548462
+Clean/clean_11.png,Clean,Clean,0.9993115663528442
+Clean/clean_135.png,Clean,Clean,0.9951653480529785
+Clean/clean_14.png,Clean,Clean,0.9999246597290039
+Clean/clean_158.png,Clean,Clean,0.9999991655349731
+Clean/clean_159.png,Clean,Clean,1.0
+Clean/clean_160.png,Clean,Clean,1.0
+Clean/clean_166.png,Clean,Clean,0.8791680335998535
+Clean/clean_167.png,Clean,Clean,0.824841320514679
+Clean/clean_172.png,Clean,Clean,0.5011073350906372
+Clean/clean_173.png,Clean,Clean,0.8398628234863281
+Clean/clean_174.png,Clean,Clean,0.7157204747200012
+Clean/clean_179.png,Clean,Clean,0.5409480929374695
+Clean/clean_180.png,Clean,Clean,0.9999996423721313
+Clean/clean_3.png,Clean,Clean,0.9993115663528442
+Clean/clean_33.png,Clean,Clean,0.9992708563804626
+Clean/clean_95.png,Clean,Clean,0.9999995231628418
+Clean/clean_96.png,Clean,Clean,0.9935722351074219
+Cracks/cracks_11.png,Cracks,Cracks,0.9993640780448914
+Cracks/cracks_114.png,Cracks,Cracks,0.7441453337669373
+Cracks/cracks_116.png,Cracks,Cracks,0.9787105321884155
+Cracks/cracks_17.png,Cracks,Cracks,0.5146531462669373
+Cracks/cracks_24.png,Cracks,Cracks,0.9956056475639343
+Cracks/cracks_25.png,Cracks,Cracks,0.9969407320022583
+Cracks/cracks_3.png,Cracks,Clean,0.9618956446647644
+Cracks/cracks_4.png,Cracks,Cracks,0.5888600945472717
+Cracks/cracks_63.png,Cracks,Cracks,0.9942682981491089
+Cracks/cracks_8.png,Cracks,Cracks,0.38589897751808167
+Cracks/cracks_85.png,Cracks,Cracks,0.9988242983818054
+Cracks/cracks_90.png,Cracks,Cracks,0.6990962624549866
+LER/ler_11.png,LER,LER,0.4841528832912445
+LER/ler_12.png,LER,LER,0.8548817038536072
+LER/ler_2.png,LER,LER,0.6427249312400818
+LER/ler_79.png,LER,LER,0.7851788401603699
+LER/ler_84.png,LER,LER,0.8458409309387207
+LER/ler_85.png,LER,LER,0.7535055875778198
+LER/ler_86.png,LER,LER,0.904737651348114
+LER/ler_92.png,LER,LER,0.8600788712501526
+LER/ler_93.png,LER,LER,0.7971343994140625
+LER/ler_94.png,LER,LER,0.9133818745613098
+Stain/stain_14.png,Stain,Stain,0.9937378168106079
+Stain/stain_15.png,Stain,Stain,0.9871368408203125
+Stain/stain_28.png,Stain,Stain,0.9970073103904724
+Stain/stain_29.png,Stain,Stain,0.9999053478240967
+Stain/stain_4.png,Stain,Stain,0.9960230588912964
+Stain/stain_5.png,Stain,Stain,0.9619081020355225
+Stain/stain_54.png,Stain,Stain,0.9880296587944031
+Stain/stain_7.png,Stain,Stain,0.997346043586731
+Stain/stain_86.png,Stain,Stain,0.9863033890724182
+Stain/stain_93.png,Stain,Stain,0.9883344173431396
+cmp/cmp_16.png,cmp,cmp,0.9956068396568298
+cmp/cmp_2.png,cmp,cmp,0.9955059289932251
+cmp/cmp_3.png,cmp,cmp,0.9542676210403442
+cmp/cmp_4.png,cmp,cmp,0.9895949959754944
+cmp/cmp_5.png,cmp,cmp,0.9968810081481934
+cmp/cmp_50.png,cmp,cmp,0.9968081116676331
+cmp/cmp_56.png,cmp,cmp,0.992493212223053
+cmp/cmp_65.png,cmp,cmp,0.9717819094657898
+cmp/cmp_82.png,cmp,particle contamination,0.7012997269630432
+cmp/cmp_9.png,cmp,cmp,0.987902045249939
+open/open_50.png,open,open,0.6662287712097168
+open/open_60.png,open,open,0.991969883441925
+open/open_61.png,open,open,0.7946087718009949
+open/open_65.png,open,open,0.9987712502479553
+open/open_68.png,open,open,0.7424463033676147
+open/open_7.png,open,open,0.949636697769165
+open/open_72.png,open,Bridge,0.5013653039932251
+other/other_1.png,other,other,0.9999746084213257
+other/other_22.png,other,other,0.8611427545547485
+other/other_27.png,other,other,0.9991053938865662
+other/other_41.png,other,Clean,0.6487767696380615
+other/other_49.png,other,other,0.9957310557365417
+other/other_63.png,other,other,0.8513584136962891
+other/other_64.png,other,other,0.9906348586082458
+other/other_80.png,other,other,0.9909633994102478
+other/other_81.png,other,other,0.9991204142570496
+particle contamination/particle contamination_13.png,particle contamination,particle contamination,0.9997430443763733
+particle contamination/particle contamination_25.png,particle contamination,particle contamination,0.9999802112579346
+particle contamination/particle contamination_33.png,particle contamination,particle contamination,0.9366006851196289
+particle contamination/particle contamination_39.png,particle contamination,particle contamination,0.9999594688415527
+particle contamination/particle contamination_46.png,particle contamination,particle contamination,0.9998290538787842
+particle contamination/particle contamination_52.png,particle contamination,particle contamination,0.9999943971633911
+particle contamination/particle contamination_81.png,particle contamination,particle contamination,0.6564061045646667
+particle contamination/particle contamination_83.png,particle contamination,particle contamination,0.9989996552467346
+particle contamination/particle contamination_87.png,particle contamination,particle contamination,0.9948731064796448
+particle contamination/particle contamination_90.png,particle contamination,particle contamination,0.49217239022254944
+particle contamination/particle contamination_92.png,particle contamination,particle contamination,0.9996323585510254
+particle contamination/particle contamination_95.png,particle contamination,particle contamination,0.999497652053833
+via/via_1.png,via,via,0.9652535915374756
+via/via_10.png,via,via,0.998668909072876
+via/via_18.png,via,via,0.9999611377716064
+via/via_19.png,via,via,0.9984058737754822
+via/via_20.png,via,via,0.9140502214431763
+via/via_31.png,via,via,0.9939488172531128
+via/via_39.png,via,via,0.980022132396698
+via/via_4.png,via,via,0.9868115782737732
+via/via_62.png,via,via,0.6732438802719116
