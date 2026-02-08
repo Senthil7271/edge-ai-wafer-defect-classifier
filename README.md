@@ -222,9 +222,8 @@ Model exported from TensorFlow/Keras → ONNX for edge inference.
 
 ## Export
 
-```bash
 ![convert_savedmodel_onnx](convert_savedmodel_onnx.py)
-```
+
 
 ✔ CPU compatible
 ✔ Edge runtime ready
