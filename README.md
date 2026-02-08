@@ -61,35 +61,25 @@ Defect Class Prediction
 
 ---
 
-# 🗂 Defect Classes
-
-
 # 🧬 Defect Class Descriptions
 
-The model classifies wafer and die inspection images into the following defect categories commonly observed in semiconductor manufacturing:
+The model classifies wafer and die inspection images into the following semiconductor defect categories:
 
 ---
 
 ### 🔗 Bridge
 
 Unintended conductive connection between adjacent metal lines or features.
-This can create electrical shorts and lead to functional failure.
+May create electrical shorts and cause circuit malfunction.
 
 **Typical cause:** Lithography or metal patterning errors.
 
 ---
 
-### 🧼 Clean
-
-No visible defect present.
-Represents nominal, defect-free inspection regions used as baseline class.
-
----
-
 ### 🧩 Cracks
 
-Physical fractures in material layers or structures.
-May propagate and cause device reliability failures.
+Physical fractures in material layers or device structures.
+Can propagate and reduce long-term reliability.
 
 **Typical cause:** Mechanical stress or thermal cycling.
 
@@ -98,51 +88,39 @@ May propagate and cause device reliability failures.
 ### 📏 LER (Line Edge Roughness)
 
 Irregular or rough feature edges instead of smooth boundaries.
-Impacts device dimensions and electrical behavior.
+Affects critical dimensions and electrical performance.
 
-**Typical cause:** Lithography and etch variability.
+**Typical cause:** Lithography and etch process variation.
 
 ---
 
 ### 💧 Stain
 
-Localized discoloration or residue patches on wafer surface.
+Localized discoloration or residue patches on the wafer surface.
 
-**Typical cause:** Chemical residue, rinse issues, or contamination.
+**Typical cause:** Chemical residue, poor rinse, or process contamination.
 
 ---
 
 ### ⚙️ CMP (Chemical Mechanical Planarization defect)
 
-Surface non-uniformity or residue after CMP polishing step.
+Surface non-uniformity or slurry residue after CMP polishing.
 
-**Typical cause:** Slurry residue, over-polish, or pad issues.
+**Typical cause:** Over-polish, slurry residue, pad wear.
 
 ---
 
 ### 🔓 Open
 
-Broken or disconnected conductive path.
+Broken or disconnected conductive path leading to open circuits.
 
-Results in electrical open circuits.
-
-**Typical cause:** Etch break, missing metal, or via failure.
-
----
-
-### ❓ Other
-
-Defects that do not fall into predefined categories but show abnormal patterns.
-
-Used as catch-all anomaly class.
+**Typical cause:** Etch breaks, missing metal, or via fill failure.
 
 ---
 
 ### 🧪 Particle Contamination
 
-Foreign particles or debris present on wafer surface.
-
-Can block patterns or cause downstream process defects.
+Foreign particles or debris present on the wafer surface that interfere with patterns.
 
 **Typical cause:** Environmental or handling contamination.
 
@@ -150,13 +128,26 @@ Can block patterns or cause downstream process defects.
 
 ### 🕳 Via Defect
 
-Issues in via holes connecting metal layers, including voids or misalignment.
+Defects in via holes connecting metal layers, including voids or misalignment.
 
-Can lead to opens or high resistance connections.
-
-**Typical cause:** Via etch or fill process variation.
+**Typical cause:** Via etch or metallization issues.
 
 ---
+
+### 🧼 Clean
+
+No visible defect present.
+Represents nominal defect-free inspection regions and serves as the baseline class.
+
+---
+
+### ❓ Other
+
+Abnormal patterns that do not match predefined defect categories.
+Acts as a catch-all class for uncommon or mixed anomalies.
+
+---
+
 
 ```
 
