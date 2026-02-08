@@ -246,20 +246,23 @@ Optimized for edge compute limits.
 # 📁 Repository Structure
 
 ```
-├── train.py
-├── evaluate.py
-├── export_onnx.py
-├── inference_onnx.py
+edge-ai-wafer-defect-classifier/
+│
+├── README.md
 ├── requirements.txt
 │
-├── models/
-│   ├── mobilenetv2_gray.h5
-│   └── defect_model.onnx
+├── Scripts/
+│   ├── train.py
+│   ├── test_folder_eval.py
+│   └── convert_savedmodel_onnx.py
 │
-├── results/
-│   ├── confusion_matrix.png
-│   ├── classification_report.txt
-│   └── metrics.json
+├── models/
+│   └── final_model.onnx
+│
+├── Test_Results/
+│   ├── Confusion_Matrix.jpeg
+│   ├── Test_Dataset_Results.jpeg
+│   └── test_predictions.csv
 ```
 
 ---
