@@ -77,7 +77,7 @@ Evaluation was performed strictly on the available classes.
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | ~25% |
+| Accuracy | ~26% |
 | Micro F1 | ~0.25 |
 | Macro F1 | ~0.25 |
 | Weighted F1 | ~0.23 |
@@ -158,19 +158,9 @@ Highlights:
 edge-ai-wafer-defect-classifier/
 │
 ├── README.md
-├── requirements.txt
-│
-├── Scripts/
-│ ├── hackathon_test_dataset_prediction.py
-│ ├── train.py
-│ └── convert_savedmodel_onnx.py
-│
-├── models/
-│ └── final_model.onnx
-│
-├── Test_Results/
-│ ├── phase2_confusion_matrix.png
-│ └── prediction_log.txt
+│── hackathon_test_dataset_prediction.py
+│── phase2_confusion_matrix.png
+│── prediction_log.txt
 
 
 ---
