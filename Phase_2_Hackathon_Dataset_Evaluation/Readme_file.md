@@ -25,26 +25,7 @@ This stage validates:
 
 ---
 
-# 🧠 ONNX Inference Pipeline
 
-
-
-Test Dataset Image
-│
-▼
-Resize → 224×224
-│
-▼
-Grayscale (1 Channel)
-│
-▼
-NHWC Conversion
-│
-▼
-ONNX Runtime Inference
-│
-▼
-Defect Class Prediction
 
 
 ---
@@ -120,8 +101,23 @@ Highlights:
 
 • Diagonal dominance in certain classes  
 • Misclassification concentrated in similar defect types  
-• “Other” class shows significant confusion  
+• “Other” class shows significant confusion 
 
+🔎 Important Observation on “Other” Class
+
+The “Other” class shows very low recall.
+
+Analysis indicates that several images labeled as “Other” in the Phase 2 test dataset visually resemble specific defect categories used during training.
+
+As a result:
+
+The model tends to classify those samples into structured defect classes (e.g., Crack, CMP, Open)
+
+This leads to reduced recall for “Other”
+
+The behavior reflects dataset label overlap rather than model instability
+
+This observation is important for interpreting Phase 2 evaluation metrics.
 ---
 
 # ⚙ Technical Details
