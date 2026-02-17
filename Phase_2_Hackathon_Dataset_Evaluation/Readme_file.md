@@ -151,16 +151,6 @@ Highlights:
 
 ---
 
-# 📁 Repository Structure
-
-
-
-edge-ai-wafer-defect-classifier/
-│
-├── README.md
-│── hackathon_test_dataset_prediction.py
-│── phase2_confusion_matrix.png
-│── prediction_log.txt
 
 
 ---
